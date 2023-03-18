@@ -38,7 +38,7 @@ Learning and practicing `Data Structures and Algorithms`
 ## 🛠 Built With <a name="built-with">`Nodejs` and `JavaScript`</a>
 
 <!-- Getting started -->
-## :octocat: Getting started <a name="getting-started"></a>
+## :rocket: Getting started <a name="getting-started"></a>
 To get started, follow this steps below
 
 ### :hammer: Setup <a name="setup"></a>
