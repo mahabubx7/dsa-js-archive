@@ -7,8 +7,8 @@
     "test": "mocha src/**/*tests.js",
     "tester": "./bin/cli.js",
     "postinstall": "husky install",
-    "lint": "eslint src/**/*.{js}",
-    "lint:fix": "eslint src/**/*.{js} --fix"
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
   },
   "repository": {
     "type": "git",
