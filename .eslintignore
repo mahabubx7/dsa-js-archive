@@ -1,0 +1,3 @@
+# ESlint ignores
+node_modules/
+bin/

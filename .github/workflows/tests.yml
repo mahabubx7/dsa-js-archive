@@ -1,0 +1,20 @@
+name: Tests
+
+on: push
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  eslint:
+    name: Checking Tests
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install all dependencies
+        run: npm install
+      - name: Test Report
+        run: npm test

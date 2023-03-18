@@ -1,0 +1,49 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "data-structures-and-algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*tests.js",
+    "tester": "./bin/cli.js",
+    "postinstall": "husky install",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mahabubx7/dsa.git"
+  },
+  "keywords": [
+    "dsa"
+  ],
+  "bin": {
+    "tester": "./bin/cli.js"
+  },
+  "lint-staged": {
+    "**/*": "prettier -w .",
+    "src/**/*.js": "eslint ."
+  },
+  "author": "mahabubx7 <mahabubx7@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "boxen": "^7.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.4",
+    "yargs": "^17.7.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mahabubx7/dsa/issues"
+  }
+}
