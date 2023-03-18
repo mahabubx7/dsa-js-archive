@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha src/**/*tests.js",
     "tester": "./bin/cli.js",
-    "postinstall": "npm install; husky install",
+    "postinstall": "husky install",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix"
   },
@@ -22,7 +22,7 @@
   },
   "lint-staged": {
     "**/*": "prettier -w .",
-    "src/**/*.js": "eslint . --fix"
+    "src/**/*.js": "eslint ."
   },
   "author": "mahabubx7 <mahabubx7@gmail.com>",
   "license": "MIT",
