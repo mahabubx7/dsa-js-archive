@@ -13,9 +13,7 @@ Learning and practicing `Data Structures and Algorithms`
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -38,6 +36,31 @@ Learning and practicing `Data Structures and Algorithms`
 **[Data Structures and Algorithms]** is a self-managed repository (at least for now) which contains some popular and necessary data-structures and some algorithms. It can be helpful to any newbie developer or computer-science student.
 
 ## 🛠 Built With <a name="built-with">`Nodejs` and `JavaScript`</a>
+
+<!-- Getting started -->
+## :octocat: Getting started <a name="getting-started"></a>
+To get started, follow this steps below
+
+### :hammer: Setup <a name="setup"></a>
+Must have `git` and `node` (A javascript runtime environment)
+
+Download or clone
+```sh
+  git clone https://github.com/mahabubx7/dsa.git
+```
+
+### :accept: Pre-requisites <a name="prerequisites"></a>
+Prerequisites for this project.
+
+- `Nodejs` (version `16.x`)
+- `Git`
+
+### :zap: Install <a name="install"></a>
+Install necessary things.
+
+```sh
+  npm install
+```
 
 <!-- Features -->
 
