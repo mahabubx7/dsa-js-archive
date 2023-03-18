@@ -1,15 +1,15 @@
 #! /usr/bin/env node
-const yargs = require("yargs");
-const utils = require("./utils");
-console.log("Tester CLI by Mahabub");
+const yargs = require('yargs');
+const utils = require('./utils');
+console.log('Tester CLI by Mahabub');
 
-const usage = "\nUsage: tester <file_name> strings";
+const usage = '\nUsage: tester <file_name> strings';
 const options = yargs
   .usage(usage)
-  .option("fl", {
-    alias: "file",
-    describe: "filename of your target one",
-    type: "boolean",
+  .option('fl', {
+    alias: 'file',
+    describe: 'filename of your target one',
+    type: 'boolean',
     demandOption: false,
   })
   .help(true).argv;

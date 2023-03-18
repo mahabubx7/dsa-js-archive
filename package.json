@@ -21,8 +21,8 @@
     "tester": "./bin/cli.js"
   },
   "lint-staged": {
-    "**/*.{js}": "prettier -w .",
-    "src/**/*.{js}": "eslint . --fix"
+    "**/*": "prettier -w .",
+    "src/**/*.js": "eslint . --fix"
   },
   "author": "mahabubx7 <mahabubx7@gmail.com>",
   "license": "MIT",
