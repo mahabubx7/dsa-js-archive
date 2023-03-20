@@ -96,11 +96,11 @@ our custom CLI for test runner
 tester --version
 ```
 ```sh
-tester -fl folderName
+tester --fl folderName
 ```
 or,
 ```sh
-tester -fl folderName/subFolderName
+tester --fl folderName/subFolderName
 ```
 for help
 ```sh

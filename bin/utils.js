@@ -24,13 +24,12 @@ function callFile(topic) {
     }
     exec(`${command}/tests.js`, (err, output) => {
       if (err) {
-        console.error(err);
-        return;
+        console.log('Error!');
       }
       console.log(output);
     }); // shell command
   } catch (err) {
-    console.error(err);
+    console.log(err);
   }
 }
 
