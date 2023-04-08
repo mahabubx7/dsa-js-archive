@@ -19,24 +19,24 @@ class Array {
     return this.items;
   }
 
-  remove(item = null) {
-    if (!item) {
-      this.items.pop();
-      return this.items;
-    }
-    this.items = this.items.filter((it) => it !== item);
-    return this.items;
+  remove(index = null) {
+    if (index === null || index === undefined) return this.items.pop();
+    if (index < 0) return new Error('Invalid array index');
+    const arr = [...this.items];
+    const toBeRemoved = arr.splice(index, 1);
+    this.items = [...arr];
+    return toBeRemoved;
   }
 
   removeAll() {
     this.items = [];
-    return this.items;
+    return this.items.length === 0;
   }
 
   get(index = null) {
-    if (!index) return this.items;
+    if (index >= 0) return this.items[index];
     if (index < 0) return new Error('Invalid array index');
-    return this.items[index];
+    return this.items;
   }
 
   size() {
